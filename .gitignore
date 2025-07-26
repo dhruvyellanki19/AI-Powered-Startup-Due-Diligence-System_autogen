@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Bytecode
+__pycache__/
+*.pyc
+
+# Virtual environments
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Logs, caches
+*.log
+*.cache/
+
+# VS Code config (optional)
+.vscode/
+
