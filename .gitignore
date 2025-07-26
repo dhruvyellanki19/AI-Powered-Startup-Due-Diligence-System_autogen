@@ -1,3 +1,6 @@
+# macOS system files
+.DS_Store
+
 # Secrets
 .env
 
@@ -5,16 +8,11 @@
 __pycache__/
 *.pyc
 
-# Virtual environments
+# Virtual env
 bin/
 lib/
 include/
 pyvenv.cfg
 
-# Logs, caches
-*.log
-*.cache/
-
-# VS Code config (optional)
+# VS Code
 .vscode/
-
