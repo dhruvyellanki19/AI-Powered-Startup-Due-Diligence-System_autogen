@@ -1,0 +1,7 @@
+Startup: FlowTrack
+Sector: Logistics SaaS
+Problem: Delivery companies struggle with real-time tracking and SLA management.
+Solution: AI-driven logistics platform with predictive alerts and API-based integration.
+Team: 2 ex-Amazon engineers + 1 ops head with 15 yrs experience.
+Traction: $50k MRR, 5 pilots with national brands.
+Tech Stack: Python, FastAPI, React, Google Cloud.

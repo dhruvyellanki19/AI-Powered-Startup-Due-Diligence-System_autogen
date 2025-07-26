@@ -1,6 +1,11 @@
 import os
 from dotenv import load_dotenv
-from autogen.agentchat.llm_clients import GeminiChatClient
+import google.generativeai as genai
 
 load_dotenv()
-llm = GeminiChatClient(model="models/gemini-pro") 
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+
+def gemini_chat(prompt):
+    model = genai.GenerativeModel('models/gemini-1.5-flash-latest')  # Switch here!
+    response = model.generate_content(prompt)
+    return response.text

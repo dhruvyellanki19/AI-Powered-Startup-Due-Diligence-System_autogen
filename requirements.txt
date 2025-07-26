@@ -1,7 +1,2 @@
-pyautogen
-python-dotenv
 google-generativeai
-pandas
-rich
-tqdm
-requests
+python-dotenv
